@@ -8,7 +8,7 @@ def fetch_influenza_accession_numbers():
     search_query = "Influenza[Title] AND Homo sapiens[Organism] AND genome"
     
     # Perform the search in the Nucleotide database
-    handle = Entrez.esearch(db="nucleotide", term=search_query, retmax=20)
+    handle = Entrez.esearch(db="nucleotide", term=search_query, retmax=200)
     record = Entrez.read(handle)
     handle.close()
     
