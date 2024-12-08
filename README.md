@@ -24,7 +24,7 @@ In this project, machine learning techniques are applied to classify genomic seq
 ## 🚀 How It Works
 
 1. **Dataset**:  
-   The dataset consists of labeled genomic sequences for influenza and COVID-19.
+   The dataset consists of labeled genomic sequences for influenza and COVID-19. It is taken from Genebank by using accession numbers.
 
 2. **Preprocessing**:  
    - Clean and standardize the sequences.  
